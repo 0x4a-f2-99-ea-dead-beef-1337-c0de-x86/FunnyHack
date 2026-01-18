@@ -17,14 +17,14 @@ end
 --// Custom Drawing Library
 
 if not Drawing or not Drawing.new or not Drawing.Fonts then
-	loadstring(game.HttpGet(game, "Drawing.lua"))()
+	loadstring(game.HttpGet(game, `https://raw.githubusercontent.com/0x4a-f2-99-ea-dead-beef-1337-c0de-x86/FunnyHack/refs/heads/main/Drawing.lua?t={os.time()}`))()
 
 	repeat
 		wait(0)
 	until Drawing and Drawing.new and type(Drawing.new) == "function" and Drawing.Fonts and type(Drawing.Fonts) == "table"
 end
 
-local ConfigLibrary = loadstring(game.HttpGet(game, "Config.lua"))()
+local ConfigLibrary = loadstring(game.HttpGet(game, `https://raw.githubusercontent.com/0x4a-f2-99-ea-dead-beef-1337-c0de-x86/FunnyHack/refs/heads/main/Config.lua?t={os.time()}`))()
 
 local Vector2new, Vector3zero, CFramenew = Vector2.new, Vector3.zero, CFrame.new
 local Drawingnew, DrawingFonts = Drawing.new, Drawing.Fonts
