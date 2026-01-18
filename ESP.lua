@@ -100,7 +100,10 @@ end
 
 --// Optimized functions / methods
 
-local Connect, Disconnect = __index(game, "DescendantAdded").Connect
+local Connect = __index(game, "DescendantAdded").Connect
+local Disconnect = function(self)
+	return self:Disconnect()
+end
 
 --// Variables
 
