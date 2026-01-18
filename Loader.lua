@@ -1,4 +1,10 @@
 ---@diagnostic disable: undefined-global
+
+--[[
+ShyzosV1Load up this by:
+loadstring(game:HttpGet(`https://raw.githubusercontent.com/0x4a-f2-99-ea-dead-beef-1337-c0de-x86/FunnyHack/refs/heads/main/Loader.lua?t={os.time()}`))()
+--]]
+
 --// Loaded Check
 
 if ShyzosV1Loaded or ShyzosV1Loading or ShyzosV1 then
