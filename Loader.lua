@@ -19,11 +19,11 @@ local osdate = os.date
 
 --// Launching
 
-loadstring(game:HttpGet("ShyzosLoadLib.lua"))()
+loadstring(game:HttpGet(`https://raw.githubusercontent.com/0x4a-f2-99-ea-dead-beef-1337-c0de-x86/FunnyHack/refs/heads/main/ShyzosLoadLib.lua?t={os.time()}`))()
 
-local GUI = loadstring(game:HttpGet("ShyzosLib.lua"))()
-local ESP = loadstring(game:HttpGet("ESP.lua"))()
-local Aimbot = loadstring(game:HttpGet("Aimbot.lua"))()
+local GUI = loadstring(game:HttpGet(`https://raw.githubusercontent.com/0x4a-f2-99-ea-dead-beef-1337-c0de-x86/FunnyHack/refs/heads/main/ShyzosLib.lua?t={os.time()}`))()
+local ESP = loadstring(game:HttpGet(`https://raw.githubusercontent.com/0x4a-f2-99-ea-dead-beef-1337-c0de-x86/FunnyHack/refs/heads/main/ESP.lua?t={os.time()}`))()
+local Aimbot = loadstring(game:HttpGet(`https://raw.githubusercontent.com/0x4a-f2-99-ea-dead-beef-1337-c0de-x86/FunnyHack/refs/heads/main/Aimbot.lua?t={os.time()}`))()
 
 --// Variables
 
